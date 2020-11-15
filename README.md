@@ -29,15 +29,15 @@ all of the details of the ride (that were available) will have been collected an
 
 ### Ride request info
 
--User_id of requestor
+- User_id of requestor
 
--Request time
+- Request time
 
--Start location
+- Start location
 
--End location
+- End location
 
--Estimated price
+- Estimated price
 
 ### Driver info
 
@@ -88,12 +88,12 @@ As part of the PoC, your team will create a basic text and keyboard-based UI to 
 
 ### (As a rider)
 - Provide a start/end location and receive a price estimation for the ride
--Request a ride
--View ride history
+- Request a ride
+- View ride history
 
 ### (As a driver)
--Start driving/stop driving
+- Start driving/stop driving
 
--Start ride/finish ride
+- Start ride/finish ride
 
--Update locatio
+- Update locatio
