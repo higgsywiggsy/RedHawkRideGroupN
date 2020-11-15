@@ -39,17 +39,17 @@ all of the details of the ride (that were available) will have been collected an
 
 -Estimated price
 
-###Driver info
+### Driver info
 
 - ser_id of driver
 
-###Ride info
+### Ride info
 
--“Start ride” time and location
+- “Start ride” time and location
 
 - “End ride” time and location
 
--Final cost
+- Final cost
 
 A user can access their ride history, which shows them all of the above info for each ride they’ve taken except for user_id numbers. 
 In place of the user_id for a ride, the driver’s name is shown.
@@ -74,7 +74,7 @@ Each week, the transactions of that week are processed. For each user, their net
 The net amount is deposited to/withdrawn from the user’s bank account by writing the desired transaction to a text file. 
 The file is in CSV format, with each line having the schema:
 {bank routing number}, {bank account number}, {“deposit” or “withdraw”}, {amount}
-##Some example entries in the CSV file might look like:
+## Some example entries in the CSV file might look like:
  - 123456,1212121,”deposit”,100.01
  - 123456,2323232,”withdraw”,97.98
 In the first line, $100.01 is deposited into the account listed (that student made money by driving). 
