@@ -1,12 +1,12 @@
 # Master Repository for CS445 Group N
-# Redhawk Ride Application Project
+## Redhawk Ride Application Project
  - This project is about creating a usable CLI application
 that will allow students on campus to participate either
 as a passenger or rider.
  - There will be two main classes for the software: rider and
 passenger.
 
-# Detailed Description
+## Detailed Description
 Taking a Ride
 Students can sign up for RedhawkRide by typing their student id and bank account details into the app. 
 Only students can use the service, so their student id is verified to be valid by checking it against a list of all student ids, which is provided by a file. 
