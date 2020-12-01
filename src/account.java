@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class account extends control{
     private String first_name;
     private String last_name;
@@ -34,10 +35,15 @@ public class account extends control{
         this.backAcc= bankaccount;
     }
 
-    public void processRegister(){}
+    public void processRegister(){} //not sure what to do here
 
-    public void createAccount(){
-
+    public void createAccount(){ //putting in rough code so we have something to work with
+        Scanner userName = new Scanner(System.in);;
+        Scanner passWord = new Scanner(System.in);;
+        System.out.println("Please enter username");
+        double username = userName.nextDouble(); //look at this
+        System.out.println("Please enter your studentID");
+        double studentID = passWord.nextDouble();
     }
 
     public boolean requestRide(){
@@ -49,7 +55,12 @@ public class account extends control{
     }
 
     public void login(){
-
+        Scanner userName = new Scanner(System.in);;
+        Scanner passWord = new Scanner(System.in);;
+        System.out.println("Please enter username");
+        double username = userName.nextDouble(); //look at this
+        System.out.println("Please enter your studentID");
+        double studentID = passWord.nextDouble();
     }
 
     public char choose_Acc_Type(){

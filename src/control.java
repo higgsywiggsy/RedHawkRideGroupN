@@ -4,6 +4,7 @@ public class control extends screen{
     private char options[];
     private String[] location;
     private double payment;
+    private String studentID;
 //Default class constructors
 //Only need one constructor for this class because
 //the menu will always be the same.
@@ -19,6 +20,12 @@ public class control extends screen{
 //Perhaps we need another function or something
 
     public void verifyLogin(){
+    if (StudentID == true){ //must read from studentID data
+        return "access granted";
+    }
+    else(){
+        return "login failed";
+    }
 
     }
 
@@ -31,6 +38,6 @@ public class control extends screen{
     }
 
     public void exitApp(){
-
+        System.exit();
     }
 }
